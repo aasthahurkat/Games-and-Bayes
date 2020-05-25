@@ -1,6 +1,6 @@
-# a2-2
+# Description
 
-#Part 1
+## Part 1
 We implemented minimax initially, it gave us results within few seconds but didnot consider the chance nodes.
 We then introduced expectiminimax algorithm with a basic heuristic. It takes time but considers all the chance nodes.
 We played the game and understood its working first. Then implemented the algorithm followed by deciding the heuristic function for the same.
@@ -8,12 +8,9 @@ Problems faced:
 The heuristic makes a significant amount of difference. We implemented the algorithm successfully, but the heuristic can always get better.
 Since the children expand exponentially, it was difficult to visualise the game with all the chance nodes.
 
-Nov. 11, 2019
-We implemented alpha beta pruning to our algorithm and edited the heuristic to make it work better. 
 
 
-
-#Part 2
+## Part 2
 
 For the Bayes implementation, we have simply considered that every pixel that has the maxmimum edge strength in the column will be the line representing the ridge.
 
